@@ -1,0 +1,59 @@
+body{
+    color: #333333;
+    font-family: Arial;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+.Happy{
+    width: 250px;
+}
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h1{
+    font-size: 74px;
+    margin-bottom: 48px;
+}
+
+header a {
+    color:#888888;
+    text-decoration: none;
+    margin-right: 16px;
+
+}
+.main_text{
+    color: #666666;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.output{
+    color: #777777;
+    font-size: 22px;
+    margin-top: 50;
+}
+input{
+    border: 1px solid #888888;
+    padding: 8px;
+}
+button{
+    border: 1px solid #888888;
+    padding: 8px;
+    cursor: pointer;
+    background: #888888;
+    color: white;
+}
